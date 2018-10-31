@@ -25,8 +25,8 @@ describe('Fizz Buzz', function (){
     //     assert.equal(fizzBuzz('name'), "not a number");
     // });
     it ('should return Fizz for multiples of 3, Buzz for multiples of 5, and return number for non-multiples', function(){
-        let myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
-        assert.deepEqual(fizzBuzz(myNumbers), 
+        // let myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+        assert.deepEqual(fizzBuzz(15), 
             [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz']);
     })
 
